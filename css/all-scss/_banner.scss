@@ -1,0 +1,57 @@
+.banner {
+    &__bcg-greetings {
+        background: #111111;
+        background-image: url("../imgs/banner__info.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 300px;
+
+        &_bottom-banner {
+            background-image: url("../imgs/join-mailing-list__bcg.png");
+            background-size: cover;
+        }
+    }
+
+    &__greetings {
+        height: 100%;
+    }
+
+    &__info {
+        max-width: 560px;
+        color: #ffffff;
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        &-title {
+            font-style: italic;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 49px;
+        }
+
+        &-description {
+            font-weight: 900;
+            font-size: 20px;
+            line-height: 24px;
+        }
+
+        &-mailing-list {
+            color: #000000;
+
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+
+            &-button {
+                width: 200px;
+                height: 40px;
+                margin: auto;
+                background: #ffffff;
+                border-radius: 16px;
+            }
+        }
+    }
+}

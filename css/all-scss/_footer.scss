@@ -1,0 +1,54 @@
+.footer {
+    background: #000000;
+    height: 320px;
+
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+
+    &__left-text {
+        display: flex;
+        flex-direction: column;
+
+        text-align: center;
+
+        &-link {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        &-all {
+            margin-bottom: 50px;
+        }
+
+        &-woman {
+            margin-bottom: 50px;
+        }
+    }
+
+    &__right-text {
+        display: flex;
+        flex-direction: column;
+
+        text-align: center;
+
+        &-link {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        &-workout {
+            margin-bottom: 50px;
+        }
+
+        &-run {
+            margin-bottom: 50px;
+        }
+    }
+
+
+}

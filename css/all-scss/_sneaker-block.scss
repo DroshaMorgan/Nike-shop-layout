@@ -1,0 +1,86 @@
+.sneaker-block {
+    width: 610px;
+    height: 275px;
+    background: #EFEFEF;
+
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    padding-top: 60px;
+    padding-bottom: 27px;
+    display: flex;
+    box-sizing: border-box;
+    position: relative;
+
+    &__text {
+        height: 100%;
+        width: 228px;
+
+        padding-left: 65px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__title {
+        font-style: italic;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 59px;
+        color: #FF3939;
+        margin-bottom: 10px;
+
+        &_discount {
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 37px;
+        }
+    }
+
+    &__description {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.01em;
+        margin-bottom: 15px;
+    }
+
+    &__shop-now {
+        &-button {
+            background: #000000;
+            border-radius: 16px;
+            width: 180px;
+            height: 55px;
+            color: #ffffff;
+
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+
+    &__img {
+        height: 100%;
+        position: absolute;
+        right: -30px;
+        top: -25px;
+
+        &_discount {
+            right: -15px;
+            top: -10px;
+        }
+
+        &-element {
+            height: 130%;
+            -webkit-transition: 0.7s;
+
+            &_discount {
+                height: 100%;
+            }
+
+            &:hover {
+                scale: 1.1;
+            }
+        }
+    }
+}

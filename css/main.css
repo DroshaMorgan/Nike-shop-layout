@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo&family=Lato:wght@300;400&family=Montserrat&family=Roboto&display=swap");
+body {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1300px;
+  margin: auto;
+}
+
+.all-mini-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+}
+
+.banner__bcg-greetings {
+  background: #111111;
+  background-image: url("../imgs/banner__info.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+}
+.banner__bcg-greetings_bottom-banner {
+  background-image: url("../imgs/join-mailing-list__bcg.png");
+  background-size: cover;
+}
+.banner__greetings {
+  height: 100%;
+}
+.banner__info {
+  max-width: 560px;
+  color: #ffffff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.banner__info-title {
+  font-style: italic;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 49px;
+}
+.banner__info-description {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 24px;
+}
+.banner__info-mailing-list {
+  color: #000000;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+.banner__info-mailing-list-button {
+  width: 200px;
+  height: 40px;
+  margin: auto;
+  background: #ffffff;
+  border-radius: 16px;
+}
+
+.sneaker-block {
+  width: 610px;
+  height: 275px;
+  background: #EFEFEF;
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
+  padding-top: 60px;
+  padding-bottom: 27px;
+  display: flex;
+  box-sizing: border-box;
+  position: relative;
+}
+.sneaker-block__text {
+  height: 100%;
+  width: 228px;
+  padding-left: 65px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sneaker-block__title {
+  font-style: italic;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FF3939;
+  margin-bottom: 10px;
+}
+.sneaker-block__title_discount {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+}
+.sneaker-block__description {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  margin-bottom: 15px;
+}
+.sneaker-block__shop-now-button {
+  background: #000000;
+  border-radius: 16px;
+  width: 180px;
+  height: 55px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+.sneaker-block__img {
+  height: 100%;
+  position: absolute;
+  right: -30px;
+  top: -25px;
+}
+.sneaker-block__img_discount {
+  right: -15px;
+  top: -10px;
+}
+.sneaker-block__img-element {
+  height: 130%;
+  -webkit-transition: 0.7s;
+}
+.sneaker-block__img-element_discount {
+  height: 100%;
+}
+.sneaker-block__img-element:hover {
+  scale: 1.1;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+.header__left {
+  display: flex;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+.header__left-woman {
+  margin-right: 50px;
+}
+.header__left-men {
+  margin-right: 50px;
+}
+.header__your-sneaker {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+}
+.header__your-sneaker-text-gray {
+  color: #A0A0A0;
+}
+.header__right {
+  display: flex;
+}
+.header__right-profile {
+  margin-right: 50px;
+}
+.header__right-search {
+  margin-right: 50px;
+}
+
+.top-banner__strip {
+  background-image: url("../imgs/banner__strip.png");
+  background-position: center;
+  height: 50px;
+}
+.top-banner__bcg-logo {
+  background-image: url("../imgs/banner__bcg.png");
+  background-position: top;
+  background-size: cover;
+  height: 700px;
+}
+.top-banner__logo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.new-products {
+  margin-top: -20px;
+}
+.new-products__block {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 115px;
+}
+.new-products__text {
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.new-products__text-top {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 49px;
+  margin-bottom: 10px;
+}
+.new-products__text-middle {
+  font-style: italic;
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 98px;
+  margin-bottom: 30px;
+}
+.new-products__text-bottom {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 49px;
+}
+
+.top-sneakers {
+  margin-bottom: 100px;
+}
+.top-sneakers__top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+.top-sneakers__top-arrow {
+  display: flex;
+}
+.top-sneakers__top-arrow-left {
+  margin-right: 25px;
+}
+.top-sneakers__items {
+  display: flex;
+  justify-content: space-between;
+}
+.top-sneakers__item {
+  width: 392px;
+  height: 580px;
+  background: #EFEFEF;
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
+  padding: 70px 30px 65px;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.top-sneakers__item-button {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+.top-sneakers__item-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  margin-bottom: 30px;
+}
+.top-sneakers__item-price {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.category {
+  margin-bottom: 100px;
+}
+.category__top {
+  margin-bottom: 30px;
+}
+.category__block {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "workout-text workout-img" "run-img run-text" "football-text football-img";
+}
+.category__block-element {
+  width: 650px;
+  height: 570px;
+}
+.category__block-element_text {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.category__block-element_grid-area-1 {
+  grid-area: workout-img;
+}
+.category__block-element_grid-area-2 {
+  grid-area: run-img;
+}
+.category__block-element_grid-area-3 {
+  grid-area: football-img;
+}
+.category__block-element_grid-area-4 {
+  grid-area: workout-text;
+}
+.category__block-element_grid-area-5 {
+  grid-area: run-text;
+}
+.category__block-element_grid-area-6 {
+  grid-area: football-text;
+}
+
+.discount-products {
+  margin-bottom: 30px;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 49px;
+}
+.discount-products__text {
+  margin-bottom: 100px;
+  text-align: center;
+}
+.discount-products__block {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 110px;
+}
+
+.footer {
+  background: #000000;
+  height: 320px;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.footer__left-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.footer__left-text-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer__left-text-all {
+  margin-bottom: 50px;
+}
+.footer__left-text-woman {
+  margin-bottom: 50px;
+}
+.footer__right-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.footer__right-text-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer__right-text-workout {
+  margin-bottom: 50px;
+}
+.footer__right-text-run {
+  margin-bottom: 50px;
+}/*# sourceMappingURL=main.css.map */

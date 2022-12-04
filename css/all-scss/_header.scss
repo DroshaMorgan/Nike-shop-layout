@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+
+    &__left {
+        display: flex;
+
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+
+        &-woman {
+            margin-right: 50px;
+        }
+
+        &-men {
+            margin-right: 50px;
+        }
+    }
+
+    // &__center {}
+
+    &__your-sneaker {
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 39px;
+
+        &-text-gray {
+            color: #A0A0A0;
+        }
+    }
+
+    &__right {
+        display: flex;
+
+        &-profile {
+            margin-right: 50px;
+        }
+
+        &-search {
+            margin-right: 50px;
+        }
+    }
+}

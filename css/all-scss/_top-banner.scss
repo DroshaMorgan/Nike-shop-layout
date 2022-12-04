@@ -1,0 +1,22 @@
+.top-banner {
+    &__strip {
+        background-image: url("../imgs/banner__strip.png");
+        background-position: center;
+        height: 50px;
+    }
+
+    &__bcg-logo {
+        background-image: url("../imgs/banner__bcg.png");
+        background-position: top;
+        background-size: cover;
+        height: 700px;
+    }
+
+    &__logo {
+        height: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

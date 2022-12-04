@@ -1,0 +1,20 @@
+.discount-products {
+    margin-bottom: 30px;
+
+    font-style: italic;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 49px;
+
+    &__text {
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    &__block {
+        display: flex;
+        justify-content: space-between;
+
+        margin-bottom: 110px;
+    }
+}
