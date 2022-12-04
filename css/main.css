@@ -313,14 +313,14 @@ body {
 
 .discount-products {
   margin-bottom: 30px;
-  font-style: italic;
-  font-weight: 900;
-  font-size: 40px;
-  line-height: 49px;
 }
 .discount-products__text {
   margin-bottom: 100px;
   text-align: center;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 49px;
 }
 .discount-products__block {
   display: flex;
